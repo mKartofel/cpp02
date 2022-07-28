@@ -6,17 +6,18 @@
 #    By: vfiszbin <vfiszbin@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/27 19:25:15 by vfiszbin          #+#    #+#              #
-#    Updated: 2022/07/27 19:32:43 by vfiszbin         ###   ########.fr        #
+#    Updated: 2022/07/28 10:55:42 by vfiszbin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = ex00
 
 SRCS =	main.cpp\
+		Fixed.cpp\
 
 OBJS = ${SRCS:.cpp=.o}
 
-INCLUDES = \
+INCLUDES = Fixed.hpp\
 
 CC = c++
 
